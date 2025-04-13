@@ -8,8 +8,8 @@ Welcome to my JavaScript learning journey! 🚀 This repository includes everyth
 - 🛠️ Mini projects like to-do apps, calculators, and more
 
 ## 🔧 Tech Stack
-- JavaScript (Vanilla)
-- HTML & CSS (for UI in projects)
+- JavaScript 
+- HTML & CSS 
 
 ## 📁 Folder Structure
 js-and-js-mini-projects/  
@@ -17,11 +17,6 @@ js-and-js-mini-projects/
 ├── exercises/          # Practice problems  
 ├── mini-projects/      # Small projects using JS  
 └── README.md
-
-## 🚀 How to Use
-Clone the repo, open any project folder, and run the `index.html` in your browser:
-
-git clone https://github.com/sahil-coder-2070/js-and-js-mini-projects.git
 
 ## 🙌 Contributing
 This is a personal learning repo, but feel free to explore or suggest improvements!
