@@ -1,0 +1,20 @@
+let name = "Ravi";      // can be changed later
+const age = 24;         // constant, can't be changed
+var isStudent = true;   // old JS, avoid using 'var'
+
+
+// Profile Card Generator (Console Only)
+let name = "Aman";
+let age = 22;
+let country = "India";
+let hobby = "coding";
+
+console.log(`Hey! I'm ${name}, a ${age} year old from ${country} who loves ${hobby}.`);
+
+
+// Simple Math Quiz
+let num1 = 5;
+let num2 = 7;
+let answer = num1 + num2;
+
+console.log(`What is ${num1} + ${num2}? Answer is ${answer}`);
