@@ -1,0 +1,32 @@
+//String – "hello"
+//Number – 23
+//Boolean – true / false
+//Null – intentionally empty
+//Undefined – declared but not assigned
+//Object – { name: "Sam" }
+//Array – [1, 2, 3]
+
+
+// Example:
+let x = "5";
+let y = 2;
+
+console.log(Number(x) + y); // 7
+console.log(typeof String(y)); // "2" → string
+
+
+// Age in Days Calculator
+let age = 25;
+let ageInDays = age * 365;
+console.log(`You are approximately ${ageInDays} days old.`);
+
+
+// Data Type Checker
+let value = true;
+console.log(typeof value);
+
+value = "123";
+console.log(typeof value);
+
+value = 123;
+console.log(typeof value);
