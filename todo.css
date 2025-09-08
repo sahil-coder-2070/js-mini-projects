@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* Button Colors */
+  --primary-button-bg: #8A2BE1;
+  --primary-button-text: #F5F5F5;
+
+  --secondary-button-bg: #eeebee94;
+  --secondary-button-text: #8A2BE1;
+
+  /* Typography */
+  --base-font-size: 14px;
+  --base-font-famliy: "Montserrat";
+}
+
+
+body {
+  /* background-color: #F7F7F7; */
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  max-height: 118vh;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+}
+
+.category button {
+  background-color: var(--secondary-button-bg);
+  color: var(--secondary-button-text);
+  font-family: var(--base-font-famliy);
+  font-size: var(--base-font-size);
+  border: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+}
+
+.category button {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.category button:active {
+  background-color: #6b1bb3;
+  /* optional darker shade */
+  color: var(--primary-button-text);
+}
+
+.category button:hover {
+  background-color: var(--primary-button-bg);
+  color: var(--primary-button-text);
+
+}
+
+.todo-checkbox {
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: border 0.3s;
+  border: 1px solid transparent;
+}
+
+.todo-item:hover {
+  border: 1px solid #6b1bb3;
+}
+
+.todo-text {
+  font-family: var(--base-font-famliy);
+  font-size: var(--base-font-size);
+  font-weight: 500;
+}
+
+/* .todo-text{
+  text-decoration: line-through;
+  font-style: italic;
+} */
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.plus button {
+  background-color: var(--primary-button-bg);
+  border: none;
+  font-size: 30px;
+  color: var(--primary-button-text);
+  width: 50px;
+  /* Set a fixed width */
+  height: 50px;
+  /* Equal to width */
+  border-radius: 50%;
+  /* Perfect circle */
+  font-size: 40px;
+  /* Optional: icon/text size */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form {
+  display: none;
+  position: absolute;
+}
+
+.formhide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  /* position: absolute; */
+  width: 30vw;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sumbit-btn {
+  background-color: var(--primary-button-bg);
+  color: var(--primary-button-text);
+  font-family: var(--base-font-famliy);
+  font-size: var(--base-font-size);
+  border: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+}
+
+.close {
+  background-color: red;
+  color: var(--primary-button-text);
+  font-family: var(--base-font-famliy);
+  font-size: var(--base-font-size);
+  border: none;
+  padding: 15px 10px;
+  border-radius: 50px;
+}
+
+.form input {
+  padding: 20px;
+  font-family: var(--base-font-famliy);
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.category button.active {
+  background-color:#8A2BE1;
+  color: white;
+}
